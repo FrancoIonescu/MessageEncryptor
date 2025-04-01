@@ -10,5 +10,8 @@ public class Main {
         String mesajCriptat = AlgoritmCriptare.cripteazaMesaj(mesaj);
         System.out.println("Mesajul criptat este: " + mesajCriptat);
 
+        String mesajDecriptat = AlgoritmCriptare.decripteazaMesaj(mesajCriptat);
+        System.out.println("Mesajul decriptat este: " + mesajDecriptat);
+
     }
 }
